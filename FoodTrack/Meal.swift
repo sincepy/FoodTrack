@@ -39,7 +39,7 @@ class Meal: NSObject, NSCoding {
         // Initialization should fail if there is no name or if the rating is negative.
         if name.isEmpty || rating < 0 {
             return nil
-        }
+ 
     }
     
     // MARK: NScoding

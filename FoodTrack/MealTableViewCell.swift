@@ -18,7 +18,8 @@ class MealTableViewCell: UITableViewCell {
     @IBOutlet weak var ratingControl: RatingControl!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // Initialization
+
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
